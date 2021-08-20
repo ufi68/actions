@@ -5,5 +5,5 @@ import (
 )
 
 func TestFoo(t *testing.T) {
-  if foo("Hello Word") != "Hello World" { t.Error(foo()) }
+  if foo() != "Hello World" { t.Error(foo()) }
 }
