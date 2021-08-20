@@ -1,6 +1,8 @@
 # https://docs.github.com/en/actions/quickstart
 name: GitHub Actions Demo
-on: [push]
+on:
+  workflow_dispatch:
+#on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
